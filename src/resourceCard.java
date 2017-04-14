@@ -2,13 +2,15 @@
  * Created by Bevan on 4/1/2017.
  */
 
+
 public class resourceCard {
-    public static void main(String[] args) {
-        String cardType = args[0];
-        Integer cardId = Integer.parseInt(args[1]);
 
+      private String cardType;
+      private int cardID;
 
-        System.out.println(cardType);
-        System.out.println(cardId);
-    }
-}
+      resourceCard(String type, int id) {
+          cardType = type;
+          cardID = id;
+      }
+        }
+
