@@ -12,5 +12,12 @@ public class resourceCard {
           cardType = type;
           cardID = id;
       }
-        }
 
+    public String getCardType() {
+        return cardType;
+    }
+
+    public int getCardID() {
+        return cardID;
+    }
+}
